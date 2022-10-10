@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Project</title>
 </head>
 
 <body>
     <header>
-        <h1>Projects</h1>
+        <img class="logo" src="#" alt="logo">
         <nav>
             <ul class="nav_links">
-                <li> <a href="index.html">Home</a></li>
-                <li> <a href="project.html">Project</a></li>
-                <li> <a href="mylife.html">My Life</a></li>
+                <li> <a href="index.html">About</a></li>
+                <li> <a id="current" href="project.html">Project</a></li>
+                <li> <a href="mylife.html">Interest</a></li>
                 <li> <a href="gallery.html">Gallery</a></li>
             </ul>
 
@@ -20,39 +24,68 @@
     </header>
 
     <main>
-        <p>FLUX: A touchless touchscreen for the Harn Museum of Art.</p>
-        <p>In August 2020, I joined the Harn Museum of Art to participate in the design and development of an
-            interactive system. At the time, the museum had purchased a touch-based exhibition software for the Korean
-            Gallery. However, due to pandemic protocols, they had to stop using the original touch-screen interactive
-            system. And while several touchless systems on the market could potentially replace the touch screen, their
-            functions and expense far exceeded the museums' needs for a single exhibition. Therefore, the museum wanted
-            us to upgrade the current interactive system in order to continue its use in the gallery. Since this project
-            was my first challenge, I felt excited to proceed with the development, research, and user testing phases.
-        </p>
-        <p>
-            After researching pre-existing solutions on the market, we decided to go with the gesture-based
-            solution.
-            We attached an external depth camera to the touch screen to capture a picture of user gestures. Using
-            graphic
-            algorithms and packages, we also enabled the user to control the mouse (touchpoint) and perform different
-            interactive events through gestures. The project became more exhilarating once we transitioned the prototype
-            into the gallery and began user testing. We found that different users would stand at different positions
-            from the screen, which resulted in a deviation in the mapping between the original set palm movement
-            distance and the cursor movement distance. To solve this problem, we enlarged the camera range to address
-            the various standing distances.
-        </p>
-        <div id="media">
-            <img src="./images/Flux.jpg" alt="Flux" height="900px" width="auto" />
+        <h1>View My Work</h1>
+        <div class="project">
+            <p>FLUX: A touchless touchscreen for the Harn Museum of Art.</p>
+            <p>In August 2020, I joined the Harn Museum of Art to participate in the design and development of an
+                interactive system. At the time, the museum had purchased a touch-based exhibition software for the
+                Korean
+                Gallery. However, due to pandemic protocols, they had to stop using the original touch-screen
+                interactive
+                system. And while several touchless systems on the market could potentially replace the touch screen,
+                their
+                functions and expense far exceeded the museums' needs for a single exhibition. Therefore, the museum
+                wanted
+                us to upgrade the current interactive system in order to continue its use in the gallery. Since this
+                project
+                was my first challenge, I felt excited to proceed with the development, research, and user testing
+                phases.
+            </p>
+            <p>
+                After researching pre-existing solutions on the market, we decided to go with the gesture-based
+                solution.
+                We attached an external depth camera to the touch screen to capture a picture of user gestures. Using
+                graphic
+                algorithms and packages, we also enabled the user to control the mouse (touchpoint) and perform
+                different
+                interactive events through gestures. The project became more exhilarating once we transitioned the
+                prototype
+                into the gallery and began user testing. We found that different users would stand at different
+                positions
+                from the screen, which resulted in a deviation in the mapping between the original set palm movement
+                distance and the cursor movement distance. To solve this problem, we enlarged the camera range to
+                address
+                the various standing distances.
+            </p>
+            <div id="media">
+                <img src="./images/Flux.jpg" alt="Flux" />
+            </div>
+
+            <p>BrainForce: A programming interface for paraplegic programmer.</p>
+            <div id="media">
+                <img src="./images/BrainForce.jpg" alt="BrainForce" />
+            </div>
         </div>
 
-        <p>BrainForce: A programming interface for paraplegic programmer.</p>
-        <div id="media">
-            <img src="./images/BrainForce.jpg" alt="Flux" height="900px" width="auto" />
-        </div>
     </main>
 
     <footer>
+        <div class="footer-content">
+            <!-- <h3>Ziyang Fang</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam non quae facilis quod debitis.
+                Voluptates sunt ad, laboriosam, libero, natus corporis sapiente impedit aperiam earum deserunt nostrum
+                voluptas voluptatem sint?</p> -->
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+            <div class="footer-bottom">
+                <p>copyright &copy;2022 Ziyang</p>
+            </div>
 
+        </div>
     </footer>
 
 </body>

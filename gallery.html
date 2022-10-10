@@ -1,47 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Gallery</title>
 </head>
 
 <body>
     <header>
-        <h1>Gallery</h1>
+        <img class="logo" src="#" alt="logo">
         <nav>
             <ul class="nav_links">
-                <li> <a href="index.html">Home</a></li>
+                <li> <a href="index.html">About</a></li>
                 <li> <a href="project.html">Project</a></li>
-                <li> <a href="mylife.html">My Life</a></li>
-                <li> <a href="gallery.html">Gallery</a></li>
+                <li> <a href="mylife.html">Interest</a></li>
+                <li> <a id="current" href="gallery.html">Gallery</a></li>
             </ul>
 
         </nav>
     </header>
 
     <main>
-        <p>Pictures</p>
-
-        <div id="media">
-            <img src="./images/Campus_Circle.jpg" alt="Campus Circle" height="900px" width="auto" />
-            <img src="./images/Corner.jpg" alt="Corner" height="900px" width="auto" />
+        <h1>View My Pics</h1>
+        <div class="gallery">
+            <p>Campus Circle, Gainesville</p>
+            <div class="media">
+                <img src="./images/Campus_Circle.jpg" alt="Campus Circle" />
+            </div>
+            <div class="media">
+                <img src="./images/Corner.jpg" alt="Corner" />
+            </div>
+            <p>House of Octopus</p>
 
             <p>Chihuly Garden and Glass, Seattle</p>
-            <img src="./images/Chihuly_Blue.jpg" alt="Chihuly Blue" height="900px" width="auto" />
-            <img src="./images/Chihuly_White.jpg" alt="Chihuly White" height="900px" width="auto" />
+            <div class="media">
+                <img src="./images/Chihuly_Blue.jpg" alt="Chihuly Blue" />
+            </div>
+            <div class="media">
+                <img src="./images/Chihuly_White.jpg" alt="Chihuly White" />
+            </div>
+            <p>Chihuly Garden and Glass, Seattle</p>
+
 
             <p>Gas Work Park, Seattle</p>
-            <img src="./images/Gas_Work_Park.jpg" alt="Gas Work Park" height="900px" width="auto" />
-            <img src="./images/Seattle.jpg" alt="Seattle" height="900px" width="auto" />
+            <div class="media">
+                <img src="./images/Gas_Work_Park.jpg" alt="Gas Work Park" />
+            </div>
+            <div class="media">
+                <img src="./images/Seattle.jpg" alt="Seattle" />
+            </div>
+            <p>Gas Work Park, Seattle</p>
 
+
+            <p>v Gundam, Guangzhou</p>
+            <div class="media">
+                <img src="./images/v_Gumdam.jpg" alt="v Gumdam" />
+            </div>
+            <div class="media">
+                <img src="./images/Gundam.jpg" alt="Gundam" />
+            </div>
             <p>Gundam Exhibition, Guangzhou</p>
-            <img src="./images/Gundam.jpg" alt="Gundam" height="900px" width="auto" />
-            <img src="./images/v_Gumdam.jpg" alt="v Gumdam" height="900px" width="auto" />
+
+            <p>Ersha island, Guangzhou</p>
+            <div class="media">
+                <img src="./images/Ersha.jpg" alt="Ersha" />
+            </div>
+
+
         </div>
+        </div>
+
     </main>
 
     <footer>
+        <div class="footer-content">
+            <!-- <h3>Ziyang Fang</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam non quae facilis quod debitis.
+                Voluptates sunt ad, laboriosam, libero, natus corporis sapiente impedit aperiam earum deserunt nostrum
+                voluptas voluptatem sint?</p> -->
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+            <div class="footer-bottom">
+                <p>copyright &copy;2022 Ziyang</p>
+            </div>
 
+        </div>
     </footer>
 
 </body>
