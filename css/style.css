@@ -162,6 +162,7 @@ aside {
 	margin-left: 15px;
 	float: right;
 	font-style: italic;
+	padding: 700px 0;
   }
 
 
@@ -310,6 +311,7 @@ aside {
 		width: 90vw;
 		margin: 10px;
 	}
+
 	.gallery {
 		display: grid;
 		grid-template-columns: 85%;
@@ -318,5 +320,15 @@ aside {
 		justify-items: center;
 		justify-content: center;
 		align-items: center;
+	}
+
+	aside {
+		grid-row: 3;
+		grid-column: 2;
+		padding: 10px 10px;
+	}
+
+	footer {
+		grid-row: 4;
 	}
 }
