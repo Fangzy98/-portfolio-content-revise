@@ -299,7 +299,7 @@ aside {
 }
 
 
-@media all and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 	.post_card p {
 		width: 90vw;
 		margin: 10px;
