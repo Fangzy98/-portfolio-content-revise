@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SF39Z3H8SN"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SF39Z3H8SN');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/html5reset.css">
@@ -67,6 +76,20 @@
             </div>
 
         </div>
+
+        <div>
+           <form action="https://formspree.io/f/xvoyepgy" method="POST">
+            <label>
+                Your email: <input type="email" name="email" required>
+            </label>
+            <label>
+                Your message: <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+            </form> 
+        </div>
+        
 
     </main>
 
