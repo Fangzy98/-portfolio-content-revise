@@ -122,6 +122,10 @@ p {
 	justify-content: center;
 }
 
+.contact label {
+	display: none;
+}
+
 .about img {
 	border-radius: 50%;
 	padding-left: 30px;
@@ -291,7 +295,7 @@ form input, form textarea {
 
 form button {
 	padding: 15px;
-	background: #ff5361;
+	background: #0c4391;
 	color: #fff;
 	font-size: 18px;
 	border: 0;
@@ -443,7 +447,7 @@ a.skip:focus{
 }
 
 /* Tablet Layout */
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1450px) {
 	.post_card p {
 		width: 45vw;
 		margin: 10px;
@@ -467,7 +471,7 @@ a.skip:focus{
 }
 
 /* Desktop Layout */
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1900px) {
 	.post_card p {
 		width: 30vw;
 		margin: 10px;
