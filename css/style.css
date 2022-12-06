@@ -149,10 +149,15 @@ p {
 	border: 2px solid #000;
 }
 
+.project video {
+	width: 90%;
+	padding: 10px auto;
+	margin: 50px 10px;
+}
+
 aside {
 	grid-row: 3;
 	grid-column: 2;
-	padding: 10px 10px;
   }
 
 
